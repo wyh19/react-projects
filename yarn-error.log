@@ -1,0 +1,32 @@
+Arguments: 
+  D:\Program\nodejs\node.exe C:\Users\30113.GOLDWIND\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js eject
+
+PATH: 
+  C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Lenovo\Fingerprint Manager Pro\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files\VisualSVN Server\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\oracle\product\11.2.0\client_lite\bin;D:\Program\TortoiseSVN\bin;C:\Program Files\MongoDB\Server\3.2\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Java\jdk1.8.0_131\bin;C:\Program Files\Git\cmd;D:\Program\nodejs\;C:\Users\30113.GOLDWIND\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\30113.GOLDWIND\AppData\Local\Programs\Python\Python36\;C:\Ruby23-x64\bin;C:\Users\30113.GOLDWIND\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\30113.GOLDWIND\AppData\Roaming\npm;C:\Users\30113.GOLDWIND\AppData\Local\GitHubDesktop\bin
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  8.9.0
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: Couldn't find a package.json file in "E:\\projects\\web\\gold\\react-projects"
+      at new MessageError (C:\Users\30113.GOLDWIND\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:186:110)
+      at C:\Users\30113.GOLDWIND\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:40048:15
+      at Generator.next (<anonymous>)
+      at step (C:\Users\30113.GOLDWIND\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:98:30)
+      at C:\Users\30113.GOLDWIND\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:109:13
+      at <anonymous>

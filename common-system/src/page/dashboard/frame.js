@@ -12,11 +12,12 @@ class Dashboard extends React.Component {
         collapsed: false,
         mode: 'inline',
     };
-    toggle = (collapsed) => {
-        console.log()
+
+    toggle = () => {
+        let collapsed =!this.state.collapsed
         this.setState({
             collapsed,
-            mode: collapsed ? 'vertical' : 'inline',
+            mode: collapsed ? 'vertical' :'inline',
         });
     }
 

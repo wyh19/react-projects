@@ -4,5 +4,6 @@
 import {combineReducers} from 'redux'
 
 import {user} from './redux/user.redux'
+import {menu} from './redux/menu.redux'
 
-export default combineReducers({user})
+export default combineReducers({user, menu})

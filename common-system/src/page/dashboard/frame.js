@@ -10,10 +10,13 @@ const { Header, Sider, Content } = Layout;
 class Dashboard extends React.Component {
     state = {
         collapsed: false,
+        mode: 'inline',
     };
-    toggle = () => {
+    toggle = (collapsed) => {
+        console.log()
         this.setState({
-            collapsed: !this.state.collapsed,
+            collapsed,
+            mode: collapsed ? 'vertical' : 'inline',
         });
     }
     render() {
@@ -25,7 +28,7 @@ class Dashboard extends React.Component {
                     collapsed={this.state.collapsed}
                 >
                     <div className="logo" />
-                    <MenuBar/>
+                    <MenuBar mode={this.state.mode}/>
                 </Sider>
                 <Layout>
                     <Header style={{ background: '#fff', padding: 0 }}>

@@ -3,12 +3,17 @@
  */
 import React from 'react'
 import { Form, Icon, Input, Button, Checkbox } from 'antd';
+import {withRouter } from 'react-router-dom'
 
 import styles from  './login.scss'
 const FormItem = Form.Item;
 
+@withRouter
 @Form.create()
 class LoginForm extends React.Component {
+    constructor(props){
+        super(props)
+    }
     handleSubmit = (e) => {
         e.preventDefault();
         this.props.form.validateFields((err, values) => {
@@ -16,6 +21,9 @@ class LoginForm extends React.Component {
                 console.log('Received values of form: ', values);
             }
         });
+    }
+    handleRegister =()=>{
+        this.props.history.push('/register')
     }
     render() {
         const { getFieldDecorator } = this.props.form;
@@ -46,7 +54,7 @@ class LoginForm extends React.Component {
                     <Button type="primary" htmlType="submit" className="login-form-button">
                         Log in
                     </Button>
-                    Or <a>register now!</a>
+                    Or <a onClick={this.handleRegister}>register now!</a>
                 </FormItem>
             </Form>
         );

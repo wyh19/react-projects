@@ -4,13 +4,17 @@
 import React from 'react'
 
 import LoginForm from './login-form'
+import './login.scss'
 
-class Login extends React.Component{
+class Login extends React.Component {
 
-    render(){
+    render() {
         return (
-            <div>
-                <LoginForm/>
+            <div className="login">
+                <div className="login-panel">
+                    <h2>请登录</h2>
+                    <LoginForm/>
+                </div>
             </div>
         )
     }

@@ -10,6 +10,7 @@ import './index.css';
 
 import Login from './page/login/login'
 import Register from './page/register/register'
+import Dashboard from './page/dashboard/dashboard'
 
 const store = createStore(reducers, compose(
     applyMiddleware(thunk),
@@ -22,7 +23,7 @@ ReactDOM.render(
             <Switch>
                 <Route path="/login" component={Login}/>
                 <Route path="/register" component={Register}/>
-                <Route path="/dashboard" component={Register}/>
+                <Route path="/dashboard" component={Dashboard}/>
                 <Route component={Login}/>
             </Switch>
         </BrowserRouter>

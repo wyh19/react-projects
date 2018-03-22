@@ -1,14 +1,16 @@
 /**
- * Created by 30113 on 2018/3/21.
+ * Created by 30113 on 2018/3/22.
  */
 import React from 'react'
+
+import LoginForm from './login-form'
 
 class Login extends React.Component{
 
     render(){
         return (
             <div>
-                登录页
+                <LoginForm/>
             </div>
         )
     }

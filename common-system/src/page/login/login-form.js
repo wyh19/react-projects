@@ -5,7 +5,7 @@ import React from 'react'
 import { Form, Icon, Input, Button, Checkbox } from 'antd';
 import {withRouter } from 'react-router-dom'
 
-import styles from  './login.scss'
+import './login.scss'
 const FormItem = Form.Item;
 
 @withRouter

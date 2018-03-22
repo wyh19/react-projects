@@ -23,6 +23,7 @@ class Dashboard extends React.Component {
             <Framework>
                 <Switch>
                     <Route path="/bench" component={Bench}/>
+
                     <Route  component={Bench}/>
                 </Switch>
             </Framework>

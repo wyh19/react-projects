@@ -4,6 +4,9 @@
 import React from 'react'
 import DemoBase from './demo-base'
 import DemoAsync from './demo-async'
+import DemoFooter from './demo-footer'
+import DemoConfirm from './demo-confirm'
+import DemoTypes from './demo-types'
 
 class ModalDemo extends React.Component {
     constructor(props) {
@@ -15,26 +18,18 @@ class ModalDemo extends React.Component {
         }
     }
 
-    showModal1 = () => {
-        this.setState({visible1: true})
-    }
-    showModal2 = () => {
-        this.setState({visible: true})
-    }
-    handleOk=(e)=>{
-        console.log(e)
-        this.setState({visible1: false})
-    }
-    handleCancel=(e)=>{
-        console.log(e)
-        this.setState({visible1: false})
-    }
     render() {
         return (
             <div>
                 <DemoBase />
                 <br/>
                 <DemoAsync/>
+                <br/>
+                <DemoFooter/>
+                <br/>
+                <DemoConfirm/>
+                <br/>
+                <DemoTypes/>
             </div>
         )
     }

@@ -7,6 +7,7 @@ import {Card, Col, Row, Icon} from 'antd'
 import DemoTimeline from './demo-timeline'
 import DemoCollapse from './demo-collapse'
 import DemoCalendar from './demo-calendar'
+import DemoBar from './demo-bar'
 
 import './bench.scss'
 
@@ -35,12 +36,12 @@ class Bench extends React.Component {
                 <br/>
                 <Row gutter={10}>
                     <Col span="12">
-                        <Card title="时间轴" extra={<Icon type="sync"/>}>
-                            <DemoTimeline/>
+                        <Card title="echarts-bar" extra={<Icon type="sync"/>}>
+                            <DemoBar/>
                         </Card>
                     </Col>
                     <Col span="12">
-                        <Card title="折叠面板" extra={<Icon type="sync"/>}>
+                        <Card title="echarts-pie" extra={<Icon type="sync"/>}>
                             <DemoCollapse/>
                         </Card>
                     </Col>

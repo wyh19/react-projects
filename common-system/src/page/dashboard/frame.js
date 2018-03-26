@@ -33,7 +33,7 @@ class Framework extends React.Component {
                     <MenuBar mode={this.state.mode}/>
                 </Sider>
                 <Layout>
-                    <Header style={{background: '#fff', padding: 0}}>
+                    <Header style={{background: '#ccc', padding: 0}}>
                         <Icon
                             className="trigger"
                             type={this.state.collapsed ? 'menu-unfold' : 'menu-fold'}

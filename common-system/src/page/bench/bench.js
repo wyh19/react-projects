@@ -8,6 +8,7 @@ import DemoTimeline from './demo-timeline'
 import DemoCollapse from './demo-collapse'
 import DemoCalendar from './demo-calendar'
 import DemoBar from './demo-bar'
+import DemoPie from './demo-pie'
 
 import './bench.scss'
 
@@ -35,14 +36,18 @@ class Bench extends React.Component {
                 </Row>
                 <br/>
                 <Row gutter={10}>
-                    <Col span="12">
+                    <Col span="10">
                         <Card title="echarts-bar" extra={<Icon type="sync"/>}>
                             <DemoBar/>
                         </Card>
                     </Col>
-                    <Col span="12">
+                    <Col span="6">
                         <Card title="echarts-pie" extra={<Icon type="sync"/>}>
-                            <DemoCollapse/>
+                            <DemoPie/>
+                        </Card>
+                    </Col>
+                    <Col span="8">
+                        <Card title="echarts-pie" extra={<Icon type="sync"/>}>
                         </Card>
                     </Col>
                 </Row>

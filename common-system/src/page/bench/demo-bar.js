@@ -5,7 +5,12 @@ import React from 'react'
 import ReactEcharts  from 'echarts-for-react'
 
 class DemoBar extends React.Component {
-
+    componentDidMount(){
+        let echarts_instance = this.echarts_react.getEchartsInstance();
+        setTimeout(()=>{
+            echarts_instance.resize()
+        },0)
+    }
     render() {
         const option = {
             xAxis: {
@@ -21,7 +26,12 @@ class DemoBar extends React.Component {
             }]
         }
         return (
-            <ReactEcharts option={option} style={{width:'100%',height:'100%'}}/>
+            <ReactEcharts
+                ref={(e) => { this.echarts_react = e; }}
+                option={option}
+                style={{width:'100%',height:'100%'}}
+                opts={{renderer: 'svg'}}
+            />
         )
     }
 }

@@ -2,13 +2,41 @@
  * Created by 30113 on 2018/3/26.
  */
 import React from 'react'
+import {createStore} from 'redux'
+import {addGun, removeGun, counter} from './reducer'
 
-class App extends React.Component{
+const store = createStore(counter)
 
-    render(){
+class App extends React.Component {
+    constructor(props) {
+        super(props)
+        this.state = store.getState()
+    }
+
+    onAddGun = () => {
+        store.dispatch(addGun())
+    }
+    onRemoveGun = () => {
+        store.dispatch(removeGun())
+    }
+    onChange = () => {
+        this.setState(store.getState())
+    }
+
+    componentDidMount() {
+        store.subscribe(this.onChange)
+    }
+
+    componentWillUnmount() {
+        store.unsubscribe(this.onChange)
+    }
+
+    render() {
         return (
             <div>
-                app11
+                <div>目前数量：{this.state.num}</div>
+                <button onClick={this.onAddGun}>加一</button>
+                <button onClick={this.onRemoveGun}>减一</button>
             </div>
         )
     }

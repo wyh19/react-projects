@@ -21,8 +21,10 @@ let config = {
                 use:[
                     {
                         loader:'babel-loader',
+                        //这里配了options，就不要.babelrc文件了
                         options:{
-                            presets:["es2015","stage-1","react"]
+                            presets:["es2015","stage-1","react"],
+                            plugins:["react-hot-loader/babel"]
                         }
                     }
                 ]

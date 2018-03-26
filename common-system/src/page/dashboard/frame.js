@@ -7,7 +7,7 @@ import MenuBar from './menubar'
 
 const {Header, Sider, Content} = Layout;
 
-class Dashboard extends React.Component {
+class Framework extends React.Component {
     state = {
         collapsed: false,
         mode: 'inline',
@@ -49,4 +49,4 @@ class Dashboard extends React.Component {
     }
 }
 
-export default Dashboard
+export default Framework

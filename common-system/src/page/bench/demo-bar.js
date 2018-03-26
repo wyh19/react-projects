@@ -6,6 +6,8 @@ import ReactEcharts  from 'echarts-for-react'
 
 class DemoBar extends React.Component {
     componentDidMount(){
+        //在card中，echarts有滚动条，强制resize才能消除
+        //todo:寻找更好的解决办法
         let echarts_instance = this.echarts_react.getEchartsInstance();
         setTimeout(()=>{
             echarts_instance.resize()

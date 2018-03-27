@@ -9,14 +9,15 @@ class App extends React.Component {
     constructor(props) {
         super(props)
         this.state = store.getState()
+        this.onChange = this.onChange.bind(this)
     }
-    onChange=()=>{
+    onChange(){
         this.setState(store.getState())
     }
-    onAdd=()=>{
+    onAdd(){
         store.dispatch(addOne())
     }
-    onMinus=()=>{
+    onMinus(){
         store.dispatch(minusOne())
     }
     componentDidMount(){

@@ -10,9 +10,7 @@ export function createStore(reducer) {
     }
 
     function subscribe(listener) {
-        console.log(listener.name)
         currentListeners.push(listener)
-        console.log(currentListeners)
     }
 
     function unsubscribe(listener) {

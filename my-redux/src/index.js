@@ -4,19 +4,19 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import {AppContainer} from 'react-hot-loader'
-import App from './App-connect'
-import {Provider} from 'react-redux'
-import {createStore} from 'redux'
-import {counter} from './reducer'
+import App from './App'
+// import {Provider} from 'react-redux'
+// import {createStore} from 'redux'
+//import {counter} from './reducer'
 
-const store = createStore(counter)
+// const store = createStore(counter)
 const root = document.getElementById('root')
 const render = (Component) => {
     ReactDOM.render(
         <AppContainer>
-            <Provider store={store}>
+            {/*<Provider store={store}>*/}
                 <Component/>
-            </Provider>
+            {/*</Provider>*/}
         </AppContainer>,
         root,
     )

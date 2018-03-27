@@ -2,7 +2,7 @@
  * Created by 30113 on 2018/3/26.
  */
 import React from 'react'
-import {createStore} from 'redux'
+import {createStore} from './wyh-redux'
 import {addGun, removeGun, counter} from './reducer'
 
 const store = createStore(counter)
@@ -28,7 +28,7 @@ class App extends React.Component {
     }
 
     componentWillUnmount() {
-        store.unsubscribe(this.onChange)
+        //store.unsubscribe(this.onChange)
     }
 
     render() {

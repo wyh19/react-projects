@@ -14,7 +14,8 @@ export function createStore(reducer) {
     }
 
     function unsubscribe(listener) {
-        currentListeners.filter(v => v.name !== listener.name)
+        const index = currentListeners.indexOf(listener)
+        currentListeners.splice(index, 1)
     }
 
     function dispatch(action) {

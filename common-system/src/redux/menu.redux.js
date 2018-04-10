@@ -57,6 +57,16 @@ export function getMenuList(){
             ]
         },
         {
+            icon:'compass',
+            text:'其他',
+            children:[
+                {
+                    text:'拖拽',
+                    url:'/dnd'
+                }
+            ]
+        },
+        {
             icon:'exception',
             text:'关于',
             url:'/about'

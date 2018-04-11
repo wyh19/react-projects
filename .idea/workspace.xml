@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8a780c6-088a-4b60-8374-893127cf275a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common-system/src/page/dnd/dnd1/Dnd1.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common-system/src/page/dashboard/dashboard.js" afterPath="$PROJECT_DIR$/common-system/src/page/dashboard/dashboard.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common-system/src/redux/menu.redux.js" afterPath="$PROJECT_DIR$/common-system/src/redux/menu.redux.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/common-system/src/page/demo/dnd/Board.css" afterPath="$PROJECT_DIR$/common-system/src/page/dnd/chess/Board.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/common-system/src/page/demo/dnd/Board.js" afterPath="$PROJECT_DIR$/common-system/src/page/dnd/chess/Board.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/common-system/src/page/demo/dnd/BoardSquare.js" afterPath="$PROJECT_DIR$/common-system/src/page/dnd/chess/BoardSquare.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/common-system/src/page/demo/dnd/Game.js" afterPath="$PROJECT_DIR$/common-system/src/page/dnd/chess/Game.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/common-system/src/page/demo/dnd/ItemTypes.js" afterPath="$PROJECT_DIR$/common-system/src/page/dnd/chess/ItemTypes.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/common-system/src/page/demo/dnd/Knight.js" afterPath="$PROJECT_DIR$/common-system/src/page/dnd/chess/Knight.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/common-system/src/page/demo/dnd/Square.js" afterPath="$PROJECT_DIR$/common-system/src/page/dnd/chess/Square.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/common-system/src/page/demo/dnd/dnd-demo.js" afterPath="$PROJECT_DIR$/common-system/src/page/dnd/chess/Chess.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -75,23 +68,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dashboard.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="dashboard.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/common-system/src/page/dashboard/dashboard.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="651">
-              <caret line="33" column="39" lean-forward="false" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
-              <folding>
-                <element signature="e#42#67#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="167">
+              <caret line="15" column="34" lean-forward="false" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="menu.redux.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="menu.redux.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/common-system/src/redux/menu.redux.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+            <state relative-caret-position="483">
+              <caret line="64" column="32" lean-forward="true" selection-start-line="64" selection-start-column="32" selection-end-line="64" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Dnd1.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common-system/src/page/dnd/dnd1/Dnd1.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -115,8 +116,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -132,7 +133,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/common-system/src/page/bench/demo-collapse.js" />
         <option value="$PROJECT_DIR$/common-system/src/index.css" />
         <option value="$PROJECT_DIR$/common-system/src/page/bench/demo-calendar.js" />
         <option value="$PROJECT_DIR$/common-system/package.json" />
@@ -181,8 +181,9 @@
         <option value="$PROJECT_DIR$/common-system/src/page/demo/dnd/Square.js" />
         <option value="$PROJECT_DIR$/common-system/src/page/demo/dnd/Game.js" />
         <option value="$PROJECT_DIR$/common-system/src/page/dnd/chess/Chess.js" />
-        <option value="$PROJECT_DIR$/common-system/src/page/dashboard/dashboard.js" />
+        <option value="$PROJECT_DIR$/common-system/src/page/dnd/dnd1/Dnd1.js" />
         <option value="$PROJECT_DIR$/common-system/src/redux/menu.redux.js" />
+        <option value="$PROJECT_DIR$/common-system/src/page/dashboard/dashboard.js" />
       </list>
     </option>
   </component>
@@ -251,6 +252,72 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="common-system" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="react-projects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="react-projects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common-system" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="react-projects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="react-projects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common-system" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="page" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="react-projects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="react-projects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common-system" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="page" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dashboard" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -394,7 +461,7 @@
       <workItem from="1523261569587" duration="4000" />
       <workItem from="1523343522456" duration="10354000" />
       <workItem from="1523415398964" duration="3876000" />
-      <workItem from="1523425943494" duration="352000" />
+      <workItem from="1523425943494" duration="717000" />
     </task>
     <task id="LOCAL-00001" summary="创建react-projects项目集以及以及第一个通用管理系统项目">
       <created>1521679113613</created>
@@ -697,17 +764,24 @@
       <option name="project" value="LOCAL" />
       <updated>1523417011072</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="调整拖拽的代码路径">
+      <created>1523426325364</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1523426325364</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123497000" />
+    <option name="totallyTimeSpent" value="123862000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18512659" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13343883" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995495" sideWeight="0.5063291" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995495" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -764,7 +838,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="添加登录页面" />
     <MESSAGE value="添加scss配置" />
     <MESSAGE value="优化登录页样式" />
     <MESSAGE value="添加dashboard" />
@@ -789,7 +862,8 @@
     <MESSAGE value="开始搭建拖拽demo" />
     <MESSAGE value="继续搭建拖拽demo" />
     <MESSAGE value="完成拖拽的官方demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成拖拽的官方demo" />
+    <MESSAGE value="调整拖拽的代码路径" />
+    <option name="LAST_COMMIT_MESSAGE" value="调整拖拽的代码路径" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -798,14 +872,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/my-redux/.babelrc" />
-    <entry file="file://$PROJECT_DIR$/my-redux/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="6" lean-forward="false" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my-redux/webpack.config.js" />
     <entry file="file://$PROJECT_DIR$/my-redux/dist/index.html" />
     <entry file="file://$PROJECT_DIR$/common-system/scripts/build.js">
@@ -1063,6 +1129,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="22" column="15" lean-forward="true" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+          <folding>
+            <element signature="e#42#83#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1070,6 +1139,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1077,6 +1147,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
           <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1130,20 +1203,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common-system/src/page/dashboard/dashboard.js">
+    <entry file="uml://JavaScript-modules-diagram/E:/projects/web/gold/react-projects/common-system/src/redux/menu.redux.js">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$/common-system/src/redux/menu.redux.js</OriginalElement>
+          <nodes>
+            <node x="" y="">$PROJECT_DIR$/common-system/node_modules/axios/index.d.ts</node>
+            <node x="" y="">$PROJECT_DIR$/common-system/src/redux/menu.redux.js#axios#49;</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="127.5" y="66.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-system/src/page/dnd/dnd1/Dnd1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="33" column="39" lean-forward="false" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
-          <folding>
-            <element signature="e#42#67#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="168">
+          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/common-system/src/redux/menu.redux.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+        <state relative-caret-position="483">
+          <caret line="64" column="32" lean-forward="true" selection-start-line="64" selection-start-column="32" selection-end-line="64" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-system/src/page/dashboard/dashboard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="15" column="34" lean-forward="false" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
           <folding />
         </state>
       </provider>

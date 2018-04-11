@@ -66,7 +66,7 @@ export function getMenuList(){
                 },
                 {
                     text:'练习1',
-                    url:'/test1'
+                    url:'/dnd1'
                 }
             ]
         },

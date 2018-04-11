@@ -13,6 +13,7 @@ import TableDemo from '../demo/table/table-demo'
 import TreeDemo from '../demo/tree/tree-demo'
 import ModalDemo from '../demo/modal/modal-demo'
 import Chess from '../dnd/chess/Chess'
+import Dnd1 from '../dnd/dnd1/Dnd1'
 
 class Dashboard extends React.Component {
     state = {
@@ -32,6 +33,7 @@ class Dashboard extends React.Component {
                     <Route path="/tree" component={TreeDemo}/>
                     <Route path="/modal" component={ModalDemo}/>
                     <Route path="/chess" component={Chess}/>
+                    <Route path="/dnd1" component={Dnd1}/>
                     <Route path="/about" component={About}/>
                     <Route  component={Bench}/>
                 </Switch>

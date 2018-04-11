@@ -3,11 +3,13 @@
  */
 import React from 'react'
 
+import Board from './Board'
+
 class DnD extends React.Component{
 
     render(){
         return (
-            <div>dnd</div>
+            <Board knightPosition={[7, 4]}/>
         )
     }
 }

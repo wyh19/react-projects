@@ -19,7 +19,9 @@ export default class Square extends Component {
                 backgroundColor: fill,
                 color: stroke,
                 width: '100%',
-                height: '100%'
+                height: '100%',
+                textAlign:'center',
+                lineHeight:'100%'
             }}>
                 {this.props.children}
             </div>

@@ -5,7 +5,7 @@ import React from 'react'
 import { observe } from './Game'
 import Board from './Board'
 
-class DnD extends React.Component{
+class Chess extends React.Component{
     constructor(props) {
         super(props)
         this.unobserve = observe(this.handleChange.bind(this))
@@ -30,4 +30,4 @@ class DnD extends React.Component{
         )
     }
 }
-export default DnD
+export default Chess

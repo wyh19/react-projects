@@ -58,11 +58,15 @@ export function getMenuList(){
         },
         {
             icon:'compass',
-            text:'其他',
+            text:'拖拽',
             children:[
                 {
-                    text:'拖拽',
-                    url:'/dnd'
+                    text:'象棋',
+                    url:'/chess'
+                },
+                {
+                    text:'练习1',
+                    url:'/test1'
                 }
             ]
         },

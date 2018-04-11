@@ -61,12 +61,12 @@ export function getMenuList(){
             text:'拖拽',
             children:[
                 {
-                    text:'象棋',
+                    text:'Chess',
                     url:'/chess'
                 },
                 {
-                    text:'练习1',
-                    url:'/dnd1'
+                    text:'Dustbin',
+                    url:'/dustbin'
                 }
             ]
         },

@@ -2,12 +2,8 @@
  * Created by 30113 on 2018/4/11.
  */
 import React, { Component } from 'react'
-// import { DragDropContextProvider } from 'react-dnd'
-// import HTML5Backend from 'react-dnd-html5-backend'
 import Dustbin from './Dustbin'
 import Box from './Box'
-
-
 import DnDContext from '../../DnDContext'
 
 @DnDContext

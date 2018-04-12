@@ -79,6 +79,14 @@ export function getMenuList(){
                 {
                     text:'Sortable',
                     url:'/sortable'
+                },
+                {
+                    text:'Customize',
+                    url:'/customize'
+                },
+                {
+                    text:'Other',
+                    url:'/other'
                 }
             ]
         },

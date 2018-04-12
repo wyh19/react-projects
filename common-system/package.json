@@ -16,6 +16,7 @@
     "echarts": "^4.0.4",
     "echarts-for-react": "^2.0.8",
     "express": "^4.16.3",
+    "faker": "^4.1.0",
     "file-loader": "1.1.5",
     "fs-extra": "3.0.1",
     "immutability-helper": "^2.6.6",

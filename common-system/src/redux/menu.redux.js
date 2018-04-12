@@ -75,6 +75,10 @@ export function getMenuList(){
                 {
                     text:'Nesting',
                     url:'/nesting'
+                },
+                {
+                    text:'Sortable',
+                    url:'/sortable'
                 }
             ]
         },

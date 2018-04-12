@@ -16,6 +16,7 @@ import Chess from '../dnd/chess/Chess'
 import DusbinDemos from '../dnd/dustbin/DusbinDemos'
 import DragAround from '../dnd/DragAround/DragAround'
 import Nesting from '../dnd/Nesting/Nesting'
+import Sortable from '../dnd/Sortable/Sortable'
 
 class Dashboard extends React.Component {
     state = {
@@ -39,6 +40,7 @@ class Dashboard extends React.Component {
                     <Route path="/dragaround" component={DragAround} />
                     <Route path="/nesting" component={Nesting} />
                     <Route path="/about" component={About}/>
+                    <Route path="/sortable" component ={Sortable}/>
                     <Route  component={Bench}/>
                 </Switch>
             </Framework>

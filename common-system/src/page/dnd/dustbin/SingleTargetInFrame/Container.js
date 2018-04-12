@@ -4,7 +4,7 @@
 import React, { Component } from 'react'
 import { DragDropContextProvider } from 'react-dnd'
 import HTML5Backend from 'react-dnd-html5-backend'
-import Frame from 'react-frame-component'
+import RFrame from 'react-frame-component'
 import Dustbin from '../SingleTarget/Dustbin'
 import Box from '../SingleTarget/Box'
 
@@ -16,7 +16,7 @@ export default class Container extends Component {
         // If neither the prop or the context value for 'window' are present, the DragDropContextProvider
         // will just use the global window.
         return (
-            <Frame style={{ width: '100%', height: '100%' }}>
+            <RFrame style={{ width: '100%', height: '100%' }}>
                 <DragDropContextProvider backend={HTML5Backend}>
                     <div>
                         <div style={{ overflow: 'hidden', clear: 'both' }}>
@@ -29,7 +29,7 @@ export default class Container extends Component {
                         </div>
                     </div>
                 </DragDropContextProvider>
-            </Frame>
+            </RFrame>
         )
     }
 }

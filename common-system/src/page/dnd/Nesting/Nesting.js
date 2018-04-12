@@ -3,23 +3,23 @@
  */
 import React from 'react'
 import {Card,Row,Col } from 'antd'
-import Naive from './Naive/Container'
-import DragAroundCustomDragLayer from './Custom Drag Layer/index'
+import DragNesting from './Drag Sources/Container'
+import DropNesting from './Drop Targets/Container'
 
-class DragAround extends React.Component{
+class Nesting extends React.Component{
 
     render(){
         return(
             <div>
                 <Row gutter={10}>
                     <Col span="12">
-                        <Card title="Naive">
-                            <Naive />
+                        <Card title="DragNesting">
+                            <DragNesting />
                         </Card>
                     </Col>
                     <Col span="12">
-                        <Card title="DragAroundCustomDragLayer">
-                            <DragAroundCustomDragLayer/>
+                        <Card title="DropNesting">
+                            <DropNesting />
                         </Card>
                     </Col>
                 </Row>
@@ -28,4 +28,4 @@ class DragAround extends React.Component{
     }
 }
 
-export default DragAround
+export default Nesting

@@ -71,6 +71,10 @@ export function getMenuList(){
                 {
                     text:'DragAround',
                     url:'/dragaround'
+                },
+                {
+                    text:'Nesting',
+                    url:'/nesting'
                 }
             ]
         },

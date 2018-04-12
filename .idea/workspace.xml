@@ -1,26 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d8a780c6-088a-4b60-8374-893127cf275a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common-system/src/page/dnd/Customize/Customize.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common-system/src/page/dnd/Customize/Drop Effects/Container.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common-system/src/page/dnd/Customize/Drop Effects/ItemTypes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common-system/src/page/dnd/Customize/Drop Effects/SourceBox.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common-system/src/page/dnd/Customize/Drop Effects/TargetBox.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common-system/src/page/dnd/Customize/Drop Effects/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common-system/src/page/dnd/Customize/Handles and Previews/BoxWithHandle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common-system/src/page/dnd/Customize/Handles and Previews/BoxWithImage.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common-system/src/page/dnd/Customize/Handles and Previews/Container.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common-system/src/page/dnd/Customize/Handles and Previews/ItemTypes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common-system/src/page/dnd/Customize/Handles and Previews/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common-system/src/page/dnd/Other/Native Files/Container.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common-system/src/page/dnd/Other/Native Files/FileList.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common-system/src/page/dnd/Other/Native Files/TargetBox.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common-system/src/page/dnd/Other/Native Files/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common-system/src/page/dnd/Other/Other.js" />
+    <list default="true" id="d8a780c6-088a-4b60-8374-893127cf275a" name="Default" comment="添加Other例子">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common-system/src/page/dnd/DragAround/Naive/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common-system/src/page/dnd/dustbin/CopyOrMove/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common-system/src/page/dnd/dustbin/MultipleTargets/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common-system/src/page/dnd/dustbin/SingleTarget/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common-system/src/page/dnd/dustbin/SingleTargetInFrame/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common-system/src/page/dnd/dustbin/Stress Test/Box.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common-system/src/page/dnd/dustbin/Stress Test/Container.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common-system/src/page/dnd/dustbin/Stress Test/Dustbin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common-system/src/page/dnd/dustbin/Stress Test/ItemTypes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common-system/src/page/dnd/dustbin/Stress Test/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common-system/src/page/dashboard/dashboard.js" afterPath="$PROJECT_DIR$/common-system/src/page/dashboard/dashboard.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common-system/src/redux/menu.redux.js" afterPath="$PROJECT_DIR$/common-system/src/redux/menu.redux.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common-system/src/page/dnd/DragAround/DragAround.js" afterPath="$PROJECT_DIR$/common-system/src/page/dnd/DragAround/DragAround.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common-system/src/page/dnd/DragAround/Naive/Container.js" afterPath="$PROJECT_DIR$/common-system/src/page/dnd/DragAround/Naive/Container.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common-system/src/page/dnd/Nesting/Nesting.js" afterPath="$PROJECT_DIR$/common-system/src/page/dnd/Nesting/Nesting.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common-system/src/page/dnd/dustbin/DusbinDemos.js" afterPath="$PROJECT_DIR$/common-system/src/page/dnd/dustbin/DusbinDemos.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -35,36 +31,78 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="dashboard.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common-system/src/page/dashboard/dashboard.js">
+      <file leaf-file-name="DusbinDemos.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common-system/src/page/dnd/dustbin/DusbinDemos.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="776">
-              <caret line="45" column="39" lean-forward="false" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
+            <state relative-caret-position="189">
+              <caret line="9" column="54" lean-forward="false" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
               <folding>
-                <element signature="e#42#67#0" expanded="true" />
+                <element signature="n#!!doc" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common-system/src/page/dnd/Other/Native Files/index.js">
+        <entry file="file://$PROJECT_DIR$/common-system/src/page/dnd/dustbin/CopyOrMove/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="3" column="32" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="32" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Container.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/common-system/src/page/dnd/Other/Native Files/Container.js">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common-system/src/page/dnd/DragAround/Custom Drag Layer/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="34" column="9" lean-forward="false" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+            <state relative-caret-position="63">
+              <caret line="6" column="46" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common-system/src/page/dnd/DragAround/Naive/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-63">
+              <caret line="0" column="7" lean-forward="true" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
               <folding>
-                <element signature="e#0#38#0" expanded="true" />
+                <element signature="e#0#40#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DragAround.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common-system/src/page/dnd/DragAround/DragAround.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="6" column="58" lean-forward="false" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Container.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common-system/src/page/dnd/DragAround/Naive/Container.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="483">
+              <caret line="62" column="13" lean-forward="false" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Nesting.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common-system/src/page/dnd/Nesting/Nesting.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="5" column="39" lean-forward="false" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -79,11 +117,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Sortable.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Sortable.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/common-system/src/page/dnd/Sortable/Sortable.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="36" selection-end-column="22" />
+            <state relative-caret-position="231">
+              <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
               <folding>
                 <element signature="e#42#67#0" expanded="true" />
               </folding>
@@ -91,55 +129,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FileList.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common-system/src/page/dnd/Other/Native Files/FileList.js">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common-system/src/page/dnd/dustbin/SingleTargetInFrame/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#40#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TargetBox.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common-system/src/page/dnd/Other/Native Files/TargetBox.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-189">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#40#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Container.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common-system/src/page/dnd/Customize/Drop Effects/Container.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="5" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Container.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common-system/src/page/dnd/Customize/Handles and Previews/Container.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="1" column="26" lean-forward="false" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="menu.redux.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common-system/src/redux/menu.redux.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="545">
-              <caret line="88" column="31" lean-forward="false" selection-start-line="88" selection-start-column="31" selection-end-line="88" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -171,7 +165,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/common-system/server/model.js" />
         <option value="$PROJECT_DIR$/common-system/server/user.js" />
         <option value="$PROJECT_DIR$/common-system/server/server.js" />
         <option value="$PROJECT_DIR$/common-system/cmd.txt" />
@@ -202,15 +195,11 @@
         <option value="$PROJECT_DIR$/common-system/src/page/dnd/dustbin/MultipleTargets/Container.js" />
         <option value="$PROJECT_DIR$/common-system/src/page/dnd/dustbin/MultipleTargets/Box.js" />
         <option value="$PROJECT_DIR$/common-system/src/page/dnd/dustbin/SingleTargetInFrame/Container.js" />
-        <option value="$PROJECT_DIR$/common-system/src/page/dnd/dustbin/DusbinDemos.js" />
         <option value="$PROJECT_DIR$/common-system/src/page/dnd/DragAround/Naive/Box.js" />
         <option value="$PROJECT_DIR$/common-system/src/page/dnd/DragAround/Naive/ItemTypes.js" />
-        <option value="$PROJECT_DIR$/common-system/src/page/dnd/DragAround/Naive/Container.js" />
         <option value="$PROJECT_DIR$/common-system/src/page/dnd/Nesting/Drag Sources/Container.js" />
         <option value="$PROJECT_DIR$/common-system/src/page/dnd/Nesting/Drop Targets/Container.js" />
-        <option value="$PROJECT_DIR$/common-system/src/page/dnd/Nesting/Nesting.js" />
         <option value="$PROJECT_DIR$/common-system/src/page/dnd/DragAround/Custom Drag Layer/index.js" />
-        <option value="$PROJECT_DIR$/common-system/src/page/dnd/DragAround/DragAround.js" />
         <option value="$PROJECT_DIR$/common-system/src/page/dnd/Sortable/Cancel on Drop Outside/Container.js" />
         <option value="$PROJECT_DIR$/common-system/src/page/dnd/Sortable/Simple/Container.js" />
         <option value="$PROJECT_DIR$/common-system/src/page/dnd/Sortable/Stress Test/Container.js" />
@@ -222,6 +211,11 @@
         <option value="$PROJECT_DIR$/common-system/src/redux/menu.redux.js" />
         <option value="$PROJECT_DIR$/common-system/src/page/dashboard/dashboard.js" />
         <option value="$PROJECT_DIR$/common-system/src/page/dnd/Other/Native Files/Container.js" />
+        <option value="$PROJECT_DIR$/common-system/src/page/dnd/dustbin/Stress Test/Container.js" />
+        <option value="$PROJECT_DIR$/common-system/src/page/dnd/dustbin/DusbinDemos.js" />
+        <option value="$PROJECT_DIR$/common-system/src/page/dnd/DragAround/DragAround.js" />
+        <option value="$PROJECT_DIR$/common-system/src/page/dnd/DragAround/Naive/Container.js" />
+        <option value="$PROJECT_DIR$/common-system/src/page/dnd/Nesting/Nesting.js" />
       </list>
     </option>
   </component>
@@ -308,28 +302,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="react-projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="react-projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="common-system" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="redux" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -467,11 +439,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Other" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Native Files" />
+              <option name="myItemId" value="Nesting" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -497,7 +465,79 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dashboard" />
+              <option name="myItemId" value="dnd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DragAround" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="react-projects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="react-projects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common-system" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="page" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dnd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DragAround" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Naive" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="react-projects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="react-projects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common-system" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="page" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dnd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DragAround" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Custom Drag Layer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -527,11 +567,11 @@
       <recent name="E:\projects\web\gold\react-projects\common-system\src\page" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\projects\web\gold\react-projects\common-system\src\page\dnd\Other" />
-      <recent name="E:\projects\web\gold\react-projects\common-system\src\page\dnd\Customize" />
-      <recent name="E:\projects\web\gold\react-projects\common-system\src\page\dnd\Sortable" />
-      <recent name="E:\projects\web\gold\react-projects\common-system\src\page\dnd\DragAround" />
-      <recent name="E:\projects\web\gold\react-projects\common-system\src\page\dnd\Nesting" />
+      <recent name="E:\projects\web\gold\react-projects\common-system\src\page\dnd\DragAround\Naive" />
+      <recent name="E:\projects\web\gold\react-projects\common-system\src\page\dnd\dustbin\SingleTargetInFrame" />
+      <recent name="E:\projects\web\gold\react-projects\common-system\src\page\dnd\dustbin\SingleTarget" />
+      <recent name="E:\projects\web\gold\react-projects\common-system\src\page\dnd\dustbin\MultipleTargets" />
+      <recent name="E:\projects\web\gold\react-projects\common-system\src\page\dnd\dustbin\CopyOrMove" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -645,14 +685,7 @@
       <workItem from="1523415398964" duration="3876000" />
       <workItem from="1523425943494" duration="5158000" />
       <workItem from="1523436515553" duration="2760000" />
-      <workItem from="1523498221285" duration="13885000" />
-    </task>
-    <task id="LOCAL-00005" summary="添加dashboard">
-      <created>1521702078103</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1521702078103</updated>
+      <workItem from="1523498221285" duration="14782000" />
     </task>
     <task id="LOCAL-00006" summary="添加dashboard">
       <created>1521703333257</created>
@@ -990,11 +1023,18 @@
       <option name="project" value="LOCAL" />
       <updated>1523519699551</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="添加Other例子">
+      <created>1523520439641</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1523520439641</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="144948000" />
+    <option name="totallyTimeSpent" value="145845000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1057,7 +1097,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="实现首页的版块" />
     <MESSAGE value="添加echats包" />
     <MESSAGE value="添加echatsdemo" />
     <MESSAGE value="添加注释" />
@@ -1082,7 +1121,8 @@
     <MESSAGE value="添加MultipleTargets例子" />
     <MESSAGE value="添加DragAround例子" />
     <MESSAGE value="添加sortable例子" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加sortable例子" />
+    <MESSAGE value="添加Other例子" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加Other例子" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1091,122 +1131,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/common-system/src/page/dnd/dustbin/MultipleTargets/Box.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="734">
-          <caret line="48" column="1" lean-forward="false" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
-          <folding>
-            <element signature="e#42#82#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-system/src/page/dnd/dustbin/MultipleTargets/Container.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1134">
-          <caret line="65" column="9" lean-forward="false" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
-          <folding>
-            <element signature="e#42#82#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-system/src/page/dnd/dustbin/SingleTargetInFrame/Container.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="13" column="68" lean-forward="false" selection-start-line="13" selection-start-column="68" selection-end-line="13" selection-end-column="68" />
-          <folding>
-            <element signature="e#42#82#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-system/src/page/dnd/dustbin/DusbinDemos.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="44" selection-end-column="26" />
-          <folding>
-            <element signature="e#42#67#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-system/src/page/dnd/DragAround/Naive/ItemTypes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-system/src/page/dnd/DragAround/Naive/Container.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="72" column="28" lean-forward="true" selection-start-line="72" selection-start-column="28" selection-end-line="72" selection-end-column="28" />
-          <folding>
-            <element signature="e#42#82#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-system/src/page/dnd/DragAround/Naive/Box.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="797">
-          <caret line="52" column="39" lean-forward="true" selection-start-line="52" selection-start-column="39" selection-end-line="52" selection-end-column="39" />
-          <folding>
-            <element signature="e#42#82#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-system/src/page/dnd/Nesting/Drag Sources/Colors.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-system/src/page/dnd/Nesting/Drag Sources/Container.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="6" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-system/src/page/dnd/Nesting/Drag Sources/SourceBox.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#40#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-system/src/page/dnd/Nesting/Drag Sources/TargetBox.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#40#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-system/src/page/dnd/Nesting/Drop Targets/Box.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#40#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common-system/src/page/dnd/Nesting/Drop Targets/Dustbin.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1307,42 +1231,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common-system/src/page/dnd/DragAround/Custom Drag Layer/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="46" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#40#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-system/src/page/dnd/DragAround/DragAround.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" column="62" lean-forward="false" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="e#42#67#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common-system/src/page/dnd/Sortable/Cancel on Drop Outside/Card.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-system/src/page/dnd/Nesting/Nesting.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="30" selection-end-column="22" />
-          <folding>
-            <element signature="e#42#67#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1509,28 +1402,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common-system/src/page/dnd/Sortable/Sortable.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="36" selection-end-column="22" />
-          <folding>
-            <element signature="e#42#67#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common-system/src/page/dnd/Other/Native Files/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
           <caret line="3" column="32" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-system/src/page/dnd/Other/Other.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="5" column="39" lean-forward="false" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
           <folding />
         </state>
       </provider>
@@ -1540,6 +1415,16 @@
         <state relative-caret-position="545">
           <caret line="88" column="31" lean-forward="false" selection-start-line="88" selection-start-column="31" selection-end-line="88" selection-end-column="31" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-system/src/page/dnd/Other/Native Files/Container.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="34" column="9" lean-forward="false" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1553,12 +1438,154 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common-system/src/page/dnd/Other/Native Files/Container.js">
+    <entry file="file://$PROJECT_DIR$/common-system/src/page/dnd/dustbin/Stress Test/Box.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="34" column="9" lean-forward="false" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+        <state relative-caret-position="0">
+          <caret line="0" column="7" lean-forward="true" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
           <folding>
-            <element signature="e#0#38#0" expanded="true" />
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-system/src/page/dnd/dustbin/Stress Test/Dustbin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-system/src/page/dnd/dustbin/Stress Test/ItemTypes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-system/src/page/dnd/dustbin/Stress Test/Container.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-system/src/page/dnd/dustbin/Stress Test/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="38" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-system/src/page/dnd/dustbin/MultipleTargets/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-system/src/page/dnd/dustbin/SingleTarget/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-system/src/page/dnd/dustbin/SingleTargetInFrame/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-system/src/page/dnd/dustbin/DusbinDemos.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="54" lean-forward="false" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-system/src/page/dnd/dustbin/CopyOrMove/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-system/src/page/dnd/DragAround/Custom Drag Layer/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="6" column="46" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-system/src/page/dnd/DragAround/Naive/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-63">
+          <caret line="0" column="7" lean-forward="true" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-system/src/page/dnd/DragAround/DragAround.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="6" column="58" lean-forward="false" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-system/src/page/dnd/DragAround/Naive/Container.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="62" column="13" lean-forward="false" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-system/src/page/dnd/Nesting/Nesting.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="5" column="39" lean-forward="false" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-system/src/page/dnd/Other/Other.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="5" column="39" lean-forward="false" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-system/src/page/dnd/Sortable/Sortable.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <folding>
+            <element signature="e#42#67#0" expanded="true" />
           </folding>
         </state>
       </provider>

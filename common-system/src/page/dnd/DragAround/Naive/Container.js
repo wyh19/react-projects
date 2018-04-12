@@ -60,15 +60,13 @@ export default class Container extends Component {
     }
 
     render() {
-        let { hideSourceOnDrag, connectDropTarget } = this.props
+        const { hideSourceOnDrag, connectDropTarget } = this.props
         const { boxes } = this.state
 
         return connectDropTarget(
             <div style={styles}>
                 {Object.keys(boxes).map(key => {
                     const { left, top, title } = boxes[key]
-                    //让其中一个不留下残影
-                    hideSourceOnDrag = !hideSourceOnDrag
                     return (
                         <Box
                             key={key}

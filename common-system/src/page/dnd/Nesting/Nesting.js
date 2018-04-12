@@ -3,8 +3,8 @@
  */
 import React from 'react'
 import {Card,Row,Col } from 'antd'
-import DragNesting from './Drag Sources/Container'
-import DropNesting from './Drop Targets/Container'
+import DragNesting from './Drag Sources'
+import DropNesting from './Drop Targets'
 
 class Nesting extends React.Component{
 

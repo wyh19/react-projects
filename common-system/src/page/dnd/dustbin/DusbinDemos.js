@@ -4,11 +4,11 @@
 import React from 'react'
 import {Card,Row,Col } from 'antd'
 
-import SingleTarget from './SingleTarget/Container'
-import CopyOrMove from './CopyOrMove/Container'
-import MultipleTargets from './MultipleTargets/Container'
-import SingleTargetInFrame from './SingleTargetInFrame/Container'
-
+import SingleTarget from './SingleTarget'
+import CopyOrMove from './CopyOrMove'
+import MultipleTargets from './MultipleTargets'
+import SingleTargetInFrame from './SingleTargetInFrame'
+import DustbinStressTest from './Stress Test'
 
 class DusbinDemos extends React.Component{
 
@@ -26,14 +26,19 @@ class DusbinDemos extends React.Component{
                             <MultipleTargets />
                         </Card>
                     </Col>
-                    <Col span="6">
+                    <Col span="8">
                         <Card title="SingleTarget">
                             <SingleTarget />
                         </Card>
                     </Col>
-                    <Col span="6">
+                    <Col span="8">
                         <Card title="SingleTargetInFrame">
                             <SingleTargetInFrame />
+                        </Card>
+                    </Col>
+                    <Col span="8">
+                        <Card title="DustbinStressTest">
+                            {/*<DustbinStressTest />*/}
                         </Card>
                     </Col>
                 </Row>

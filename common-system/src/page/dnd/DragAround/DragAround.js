@@ -3,8 +3,8 @@
  */
 import React from 'react'
 import {Card,Row,Col } from 'antd'
-import Naive from './Naive/Container'
-import DragAroundCustomDragLayer from './Custom Drag Layer/index'
+import Naive from './Naive'
+import DragAroundCustomDragLayer from './Custom Drag Layer'
 
 class DragAround extends React.Component{
 

@@ -67,6 +67,10 @@ export function getMenuList(){
                 {
                     text:'Dustbin',
                     url:'/dustbin'
+                },
+                {
+                    text:'DragAround',
+                    url:'/dragaround'
                 }
             ]
         },

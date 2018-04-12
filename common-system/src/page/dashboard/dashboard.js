@@ -14,6 +14,7 @@ import TreeDemo from '../demo/tree/tree-demo'
 import ModalDemo from '../demo/modal/modal-demo'
 import Chess from '../dnd/chess/Chess'
 import DusbinDemos from '../dnd/dustbin/DusbinDemos'
+import DragAround from '../dnd/DragAround/DragAround'
 
 class Dashboard extends React.Component {
     state = {
@@ -34,6 +35,7 @@ class Dashboard extends React.Component {
                     <Route path="/modal" component={ModalDemo}/>
                     <Route path="/chess" component={Chess}/>
                     <Route path="/dustbin" component={DusbinDemos}/>
+                    <Route path="/dragaround" component={DragAround} />
                     <Route path="/about" component={About}/>
                     <Route  component={Bench}/>
                 </Switch>

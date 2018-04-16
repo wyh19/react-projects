@@ -47,6 +47,10 @@ export function getMenuList(){
             text:'动画',
             children:[
                 {
+                    text:'官方教程',
+                    url:'/official-animation'
+                },
+                {
                     text:'基础动画',
                     url:'/base-animation'
                 },

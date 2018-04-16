@@ -19,6 +19,7 @@ import Nesting from '../dnd/Nesting/Nesting'
 import Sortable from '../dnd/Sortable/Sortable'
 import Customize from '../dnd/Customize/Customize'
 import Other from '../dnd/Other/Other'
+import OfficialAnimation from '../animation/official/OfficialAnimation'
 class Dashboard extends React.Component {
     state = {
         collapsed: false,
@@ -44,6 +45,7 @@ class Dashboard extends React.Component {
                     <Route path="/sortable" component ={Sortable}/>
                     <Route path="/customize" component ={Customize}/>
                     <Route path="/other" component ={Other}/>
+                    <Route path="/official-animation" component ={OfficialAnimation}/>
                     <Route  component={Bench}/>
                 </Switch>
             </Framework>

@@ -3,8 +3,8 @@
  */
 import React from 'react'
 import Framework from './frame'
-import {Switch,Route} from 'react-router-dom'
-
+import {Switch, Route} from 'react-router-dom'
+import QueueAnim from 'rc-queue-anim';
 import './dashbord.scss'
 
 import Bench from '../bench/bench'
@@ -29,25 +29,70 @@ class Dashboard extends React.Component {
             collapsed: !this.state.collapsed,
         });
     }
+
     render() {
+        const {pathname} = this.props.location
+        const routeList = [
+            {
+                path: '/bench',
+                component: Bench
+            },
+            {
+                path: '/table',
+                component: TableDemo
+            },
+            {
+                path: '/tree',
+                component: TreeDemo
+            },
+            {
+                path: '/modal',
+                component: ModalDemo
+            },
+            {
+                path: '/chess',
+                component: Chess
+            },
+            {
+                path: '/dustbin',
+                component: DusbinDemos
+            },
+            {
+                path: '/dragaround',
+                component: DragAround
+            },
+            {
+                path: '/nesting',
+                component: Nesting
+            },
+            {
+                path: '/about',
+                component: About
+            },
+            {
+                path: '/sortable',
+                component: Sortable
+            },
+            {
+                path: '/customize',
+                component: Customize
+            },
+            {
+                path: '/other',
+                component: Other
+            },
+            {
+                path: '/official-animation',
+                component: OfficialAnimation
+            }
+        ]
+        const page = routeList.find(v=>v.path === pathname)
+        //动画只能支持一个route
         return (
             <Framework>
-                <Switch>
-                    <Route path="/bench" component={Bench}/>
-                    <Route path="/table" component={TableDemo}/>
-                    <Route path="/tree" component={TreeDemo}/>
-                    <Route path="/modal" component={ModalDemo}/>
-                    <Route path="/chess" component={Chess}/>
-                    <Route path="/dustbin" component={DusbinDemos}/>
-                    <Route path="/dragaround" component={DragAround} />
-                    <Route path="/nesting" component={Nesting} />
-                    <Route path="/about" component={About}/>
-                    <Route path="/sortable" component ={Sortable}/>
-                    <Route path="/customize" component ={Customize}/>
-                    <Route path="/other" component ={Other}/>
-                    <Route path="/official-animation" component ={OfficialAnimation}/>
-                    <Route  component={Bench}/>
-                </Switch>
+                <QueueAnim delay={800} duration={800} type="scale" className="queue-simple">
+                    <Route key={page.path} path={page.path} component={page.component}/>
+                </QueueAnim>
             </Framework>
         );
     }

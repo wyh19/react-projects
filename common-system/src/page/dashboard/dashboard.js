@@ -90,7 +90,7 @@ class Dashboard extends React.Component {
         //动画只能支持一个route
         return (
             <Framework>
-                <QueueAnim delay={800} duration={800} type="scale" className="queue-simple">
+                <QueueAnim delay={400} duration={800} type="scale" className="queue-simple">
                     <Route key={page.path} path={page.path} component={page.component}/>
                 </QueueAnim>
             </Framework>

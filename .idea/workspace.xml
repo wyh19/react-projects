@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d8a780c6-088a-4b60-8374-893127cf275a" name="Default" comment="添加ant-motion的进场动画">
+    <list default="true" id="d8a780c6-088a-4b60-8374-893127cf275a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common-system/src/page/dashboard/dashboard.js" afterPath="$PROJECT_DIR$/common-system/src/page/dashboard/dashboard.js" />
     </list>
@@ -21,8 +21,8 @@
       <file leaf-file-name="dashboard.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/common-system/src/page/dashboard/dashboard.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="545">
-              <caret line="89" column="23" lean-forward="false" selection-start-line="89" selection-start-column="23" selection-end-line="89" selection-end-column="23" />
+            <state relative-caret-position="734">
+              <caret line="92" column="37" lean-forward="false" selection-start-line="92" selection-start-column="37" selection-end-line="92" selection-end-column="37" />
               <folding>
                 <element signature="e#42#67#0" expanded="true" />
               </folding>
@@ -367,14 +367,7 @@
       <workItem from="1523590893361" duration="228000" />
       <workItem from="1523603258248" duration="4914000" />
       <workItem from="1523868739402" duration="1008000" />
-      <workItem from="1523935403017" duration="4816000" />
-    </task>
-    <task id="LOCAL-00009" summary="添加dashboard">
-      <created>1521718795590</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1521718795591</updated>
+      <workItem from="1523935403017" duration="5050000" />
     </task>
     <task id="LOCAL-00010" summary="添加dashboard">
       <created>1521718840889</created>
@@ -712,11 +705,18 @@
       <option name="project" value="LOCAL" />
       <updated>1523942093397</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="添加ant-motion的进场动画">
+      <created>1523944352395</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1523944352395</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="159946000" />
+    <option name="totallyTimeSpent" value="160180000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1175,8 +1175,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/common-system/src/page/dashboard/dashboard.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="545">
-          <caret line="89" column="23" lean-forward="false" selection-start-line="89" selection-start-column="23" selection-end-line="89" selection-end-column="23" />
+        <state relative-caret-position="734">
+          <caret line="92" column="37" lean-forward="false" selection-start-line="92" selection-start-column="37" selection-end-line="92" selection-end-column="37" />
           <folding>
             <element signature="e#42#67#0" expanded="true" />
           </folding>

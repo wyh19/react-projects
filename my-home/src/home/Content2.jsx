@@ -4,9 +4,8 @@ import TweenOne from 'rc-tween-one';
 import OverPack from 'rc-scroll-anim/lib/ScrollOverPack';
 
 class Content extends React.Component {
-
   static defaultProps = {
-    className: 'content1',
+    className: 'content0',
   };
 
   render() {
@@ -14,10 +13,10 @@ class Content extends React.Component {
     const isMode = props.isMode;
     delete props.isMode;
     const animType = {
-      queue: isMode ? 'bottom' : 'left',
+      queue: isMode ? 'bottom' : 'right',
       one: isMode ? { y: '+=30', opacity: 0, type: 'from' }
-        : { x: '+=30', opacity: 0, type: 'from' },
-    };
+        : { x: '-=30', opacity: 0, type: 'from' },
+    }
     return (
       <div
         {...props}
@@ -27,21 +26,6 @@ class Content extends React.Component {
           className={`content-template ${props.className}`}
           location={props.id}
         >
-          <QueueAnim
-            type={animType.queue}
-            className={`${props.className}-text`}
-            key="text"
-            leaveReverse
-            ease={['easeOutCubic', 'easeInCubic']}
-            id={`${props.id}-textWrapper`}
-          >
-            <h1 key="h1" id={`${props.id}-title`}>
-              分布式中间件
-            </h1>
-            <p key="p" id={`${props.id}-content`}>
-              金融级联机交易处理中间件，大规模分布式计算机，数万笔/秒级并发能力，严格保证交易数据统一性。金融级联机交易处理中间件，大规模分布式计算机，数万笔/秒级并发能力，严格保证交易数据统一性。
-            </p>
-          </QueueAnim>
           <TweenOne
             key="img"
             animation={animType.one}
@@ -50,13 +34,29 @@ class Content extends React.Component {
             resetStyleBool
           >
             <span id={`${props.id}-img`}>
-              <img width="100%" src="https://zos.alipayobjects.com/rmsportal/tvQTfCupGUFKSfQ.png" />
+              <img width="100%" src="https://zos.alipayobjects.com/rmsportal/nLzbeGQLPyBJoli.png" />
             </span>
           </TweenOne>
+          <QueueAnim
+            className={`${props.className}-text`}
+            type={animType.queue}
+            key="text"
+            leaveReverse
+            ease={['easeOutCubic', 'easeInCubic']}
+            id={`${props.id}-textWrapper`}
+          >
+            <h1 key="h1" id={`${props.id}-title`}>
+              企业资源管理
+            </h1>
+            <p key="p" id={`${props.id}-content`}>
+              云资源集中编排、弹性伸缩、持续发布和部署，高可用及容灾。云资源集中编排、弹性伸缩、持续发布和部署，高可用及容灾。云资源集中编排、弹性伸缩、持续发布和部署，高可用及容灾。
+            </p>
+          </QueueAnim>
         </OverPack>
       </div>
     );
   }
 }
+
 
 export default Content;

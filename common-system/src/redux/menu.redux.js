@@ -25,6 +25,16 @@ function menuList(data){
 export function getMenuList(){
     const menus=[
         {
+            icon:'car',
+            text:'JSON',
+            children:[
+                {
+                    text:'编辑器',
+                    url:'/jsoneditor'
+                }
+            ]
+        },
+        {
             icon:'coffee',
             text:'Demo',
             children:[

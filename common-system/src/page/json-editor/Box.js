@@ -8,10 +8,12 @@ import ItemTypes from './ItemTypes'
 const style = {
     display: 'inline-block',
     border: '1px dashed gray',
-    padding: '0.5rem 1rem',
+    padding: '5px 10px',
+    width:'90px',
     backgroundColor: 'white',
     cursor: 'move',
-    margin:'5px'
+    margin:'5px',
+    boxSizing:'border-content',
 }
 
 const boxSource = {

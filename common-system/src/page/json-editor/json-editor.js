@@ -9,7 +9,8 @@ import ItemTypes from './ItemTypes'
 import Box from './Box'
 import Graph from './Graph'
 import _ from 'lodash'
-import {Modal, Input}from 'antd'
+import {Modal, Input,message}from 'antd'
+import Coder from './Coder'
 
 @DragDropContext(HTML5)
 class JsonEditor extends React.Component {
@@ -19,13 +20,20 @@ class JsonEditor extends React.Component {
         this.handleOk = this.handleOk.bind(this)
         this.handleCancel = this.handleCancel.bind(this)
         this.handleChange = this.handleChange.bind(this)
+        this.onAnalysis = this.onAnalysis.bind(this)
         this.pathArr = []
         this.box = null
         this.state = {
             showDialog: false,
             keyText: '',
-            json: {}
+            json: null
         }
+    }
+
+    onAnalysis(json) {
+        this.setState({
+            json: json
+        })
     }
 
     handleChange(e) {
@@ -41,44 +49,59 @@ class JsonEditor extends React.Component {
     handleOk() {
         if (this.state.keyText) {
             this.setState({showDialog: false})
-            //插入节点
-            let quote = this.state.json
-            _.forEach(this.pathArr, (item, k) => {
-                quote = quote[item]
-            })
-            quote[this.state.keyText] = this.box.value
-            this.setState({
-                json: this.state.json
-            })
-            console.log(this.state.json)
+            this.updateJson(ItemTypes.OBJECT, this.state.keyText)
         } else {
-            alert('请输入key值')
+            message.info('请输入key值')
         }
     }
 
     onDropHandle(box, target) {
-        //计算当前的json,执行重绘
         this.box = box
         let path = target.props.path
         this.pathArr = []
         if (path) {
             this.pathArr = path.split('-')
         }
-        if (target.props.type === ItemTypes.OBJECT) {
-            this.setState({
-                keyText: '',
-                showDialog: true
-            })
-        } else {
-            let quote = this.state.json
-            _.forEach(this.pathArr, (item, k) => {
-                quote = quote[item]
-            })
-            quote.push(this.box.value)
-            this.setState({
-                json: this.state.json
-            })
+        switch (target.props.type) {
+            case ItemTypes.ROOT:
+                if (this.box.type === ItemTypes.OBJECT) {
+                    this.setState({
+                        json: {}
+                    })
+                } else if (this.box.type === ItemTypes.ARRAY) {
+                    this.setState({
+                        json: []
+                    })
+                } else {
+                    message.error('根节点只能是{}或者[]')
+                    return
+                }
+                break;
+            case ItemTypes.OBJECT:
+                this.setState({
+                    keyText: '',
+                    showDialog: true
+                })
+                break;
+            case ItemTypes.ARRAY:
+                this.updateJson(ItemTypes.ARRAY)
+                break;
         }
+    }
+
+    updateJson(type, key) {
+        let quote = this.state.json
+        _.forEach(this.pathArr, (item, k) => {
+            quote = quote[item]
+        })
+        if (type === ItemTypes.ARRAY) {
+            quote.push(this.box.value)
+        } else {
+            quote[key] = this.box.value
+        }
+        this.setState({
+            json: this.state.json
+        })
     }
 
     drawGraphArea(data, key, path) {
@@ -88,7 +111,7 @@ class JsonEditor extends React.Component {
             switch (type) {
                 case 'object':
                     result = (
-                        <Graph key={key} path={path} type={ItemTypes.OBJECT} onDrop={this.onDropHandle}>
+                        <Graph key={key} tag={key} path={path} type={ItemTypes.OBJECT} onDrop={this.onDropHandle}>
                             {
                                 _.map(data, (item, i) => {
                                     let newPath = path ? `${path}-${i}` : i
@@ -100,7 +123,7 @@ class JsonEditor extends React.Component {
                     break;
                 case 'array':
                     result = (
-                        <Graph key={key} path={path} type={ItemTypes.ARRAY} onDrop={this.onDropHandle}>
+                        <Graph key={key} tag={key} path={path} type={ItemTypes.ARRAY} onDrop={this.onDropHandle}>
                             {
                                 _.map(data, (item, i) => {
                                     let newPath = path ? `${path}-${i}` : i
@@ -133,25 +156,29 @@ class JsonEditor extends React.Component {
 
     render() {
         return (
-            <div>
-                <div>
+            <div className="json-editor">
+                <div className="drag-area">
                     {/*拖拽区*/}
-                    <div>
+                    <div className="box-area">
+                        <div className="area-title">元素组件</div>
                         <Box type={ItemTypes.OBJECT} name="对象" value={{}}/>
                         <Box type={ItemTypes.ARRAY} name="数组" value={[]}/>
                         <Box type={ItemTypes.VALUE} name="值"/>
                     </div>
-                    <div style={{height: 500}}>
-                        <Graph type={ItemTypes.ROOT} onDrop={this.onDropHandle} value={this.state.json}>
+                    <div className="graph-area">
+                        <div className="area-title">JSON绘制区</div>
+                        <Graph className="root-graph" type={ItemTypes.ROOT} onDrop={this.onDropHandle}
+                               value={this.state.json}>
                             {
-                                this.drawGraphArea(this.state.json, 'wyh-json-editor')
+                                this.drawGraphArea(this.state.json)
                             }
                         </Graph>
                     </div>
                 </div>
-                <div>
+                <div className="compile-area">
                     {/*编译区*/}
-
+                    <div className="area-title">JSON文本</div>
+                    <Coder json={this.state.json} onAnalysis={(json) => this.onAnalysis(json)}/>
                 </div>
                 <Modal visible={this.state.showDialog}
                        title="输入对象的key值"
@@ -163,7 +190,6 @@ class JsonEditor extends React.Component {
             </div>
         )
     }
-
 }
 
 export default JsonEditor

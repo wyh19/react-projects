@@ -5,20 +5,21 @@ import React from 'react'
 import {DropTarget} from 'react-dnd'
 import ItemTypes from './ItemTypes'
 
-function getStyle(borderColor,type) {
+function getStyle(boxShadow,type) {
     let style = {
         minHeight: '40px',
         color: '#000',
-        padding:'20px',
+        padding:'10px',
         margin:'10px 0 10px 0',
         border: '1px solid',
-        borderColor,
+        borderColor:'#aaa',
+        boxShadow,
         boxSizing:'border-box',
     }
     switch(type){
         case ItemTypes.ROOT:
             style.height = '100%'
-            style.borderWidth='2px'
+            style.border='none'
             style.margin = '0'
             style.overflowY='auto'
             break;
@@ -56,15 +57,21 @@ class Graph extends React.Component {
             isOverCurrent,
             connectDropTarget,
             children,
-            type
+            type,
+            tag
         } = this.props
 
-        let borderColor = '#ccc'
+        let borderColor = '#aaa'
+        let boxShadow = 'none'
         if (isOverCurrent && (type !==ItemTypes.ROOT || (type ===ItemTypes.ROOT && !children))) {
-            borderColor = '#2ec7c9'
+            //borderColor = '#2ec7c9'
+            boxShadow = '0 0 8px #07a2a4 inset'
         }
         return connectDropTarget(
-            <div style={getStyle(borderColor, type)}>
+            <div style={getStyle(boxShadow, type)}>
+                <div>
+                    {tag}
+                </div>
                 {children}
             </div>
         )

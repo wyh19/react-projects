@@ -1,0 +1,55 @@
+.json-editor{
+  width:100%;
+  height:100%;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+  .drag-area{
+    position: absolute;
+    top:0;
+    right:300px;
+    bottom:0;
+    left:0;
+    border-right: 1px solid #aaa;
+    .box-area{
+      position: absolute;
+      top:0;
+      width:100px;
+      bottom:0;
+      left:0;
+      border-right: 1px solid #aaa;
+      padding-top: 30px;
+    }
+    .graph-area{
+      position: absolute;
+      top:0;
+      left:100px;
+      bottom:0;
+      right:0;
+      padding-top: 30px;
+      .root-graph{
+        height:100%;
+      }
+    }
+  }
+  .compile-area{
+    position: absolute;
+    top:0;
+    width:300px;
+    bottom:0;
+    right:0;
+    padding: 35px 5px 5px 5px;
+    overflow-y: auto;
+  }
+}
+
+.area-title{
+  position: absolute;
+  top:0;
+  left:0;
+  right:0;
+  height:30px;
+  color:#fff;
+  background-color: #588dd5;
+  padding: 5px;
+}

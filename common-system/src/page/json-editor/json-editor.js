@@ -82,6 +82,8 @@ class JsonEditor extends React.Component {
                     keyText: '',
                     showDialog: true
                 })
+                const input = this.refs.keyInput;
+                input.focus();
                 break;
             case ItemTypes.ARRAY:
                 this.updateJson(ItemTypes.ARRAY)
@@ -158,7 +160,6 @@ class JsonEditor extends React.Component {
         return (
             <div className="json-editor">
                 <div className="drag-area">
-                    {/*拖拽区*/}
                     <div className="box-area">
                         <div className="area-title">元素组件</div>
                         <Box type={ItemTypes.OBJECT} name="对象" value={{}}/>
@@ -176,16 +177,19 @@ class JsonEditor extends React.Component {
                     </div>
                 </div>
                 <div className="compile-area">
-                    {/*编译区*/}
                     <div className="area-title">JSON文本</div>
-                    <Coder json={this.state.json} onAnalysis={(json) => this.onAnalysis(json)}/>
+                    <Coder json={this.state.json} onAnalysis={this.onAnalysis}/>
                 </div>
+
                 <Modal visible={this.state.showDialog}
-                       title="输入对象的key值"
+                       title="输入元素的key值"
+                       maskClosable={false}
+                       okText="确认"
+                       cancelText="取消"
                        onOk={this.handleOk}
                        onCancel={this.handleCancel}
                 >
-                    <Input value={this.state.keyText} onChange={this.handleChange}/>
+                    <Input value={this.state.keyText} onChange={this.handleChange} ref="keyInput"/>
                 </Modal>
             </div>
         )

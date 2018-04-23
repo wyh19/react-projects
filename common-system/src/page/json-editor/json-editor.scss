@@ -53,3 +53,15 @@
   background-color: #588dd5;
   padding: 5px;
 }
+
+.json-editor-tag{
+  position: absolute;
+  top:50%;
+  //top:0;
+  left:-75px;
+  width:73px;
+  height:24px;
+  border:1px solid #ccc;
+  box-sizing: border-box;
+  transform: translate(0,-50%);
+}

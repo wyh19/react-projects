@@ -2,22 +2,31 @@
  * Created by 30113 on 2018/4/22.
  */
 import React from 'react'
-import {Button, Input} from 'antd'
+import {Button,  Switch, Tooltip} from 'antd'
+import CodeMirror  from 'react-codemirror'
+import 'codemirror/lib/codemirror.css'
+import 'codemirror/mode/javascript/javascript.js'
 
 class Coder extends React.Component {
     constructor(props) {
         super(props)
-        this.demo='{"a":{"a1":{},"a2":[]},"b":[{"b1":"b1"},{"b2":"b2"}],"c":"ccc"}'
+        this.demo = '{"a":{"a1":{},"a2":[]},"b":[{"b1":"b1"},{"b2":"b2"}],"c":"ccc"}'
         this.analysisJson = this.analysisJson.bind(this)
         this.handleChange = this.handleChange.bind(this)
-        this.formatJson =this.formatJson.bind(this)
+        this.formatJson = this.formatJson.bind(this)
+        this.state = {
+            format: false,
+            code: props.json ? JSON.stringify(props.json) : ''
+        }
     }
 
     analysisJson() {
-        this.props.onAnalysis(JSON.parse(this.json))
+        let json = this.state.code ? JSON.parse(this.state.code) : null
+        this.props.onAnalysis(json)
     }
-    formatJson () {
-        var string = this.state.json
+
+    formatJson() {
+        var string = this.state.code
         var result = '',
             pos = 0,
             prevChar = '',
@@ -40,23 +49,47 @@ class Coder extends React.Component {
             prevChar = char;
         }
         this.setState({
-            json:result
+            code: result
         })
     }
-    handleChange(e) {
-            this.json= e.target.value
+
+    handleChange(code) {
+        this.setState({
+            code: code
+        })
     }
 
+    componentWillReceiveProps(nextProps) {
+        this.setState({
+            code: nextProps.json ? JSON.stringify(nextProps.json) : ''
+        })
+    }
+
+    //todo:优化性能，需要考虑空字符串等情况
+    // shouldComponentUpdate(nextProps,nextStates){
+    //     return JSON.stringify(nextProps.json) !== JSON.stringify(JSON.parse(this.state.jsonStr))
+    // }
     render() {
+        const options = {
+            lineNumbers: true,
+            matchBrackets: true,
+            autoCloseBrackets: true,
+            mode: "application/ld+json",
+            lineWrapping: true
+        };
         return (
+
             <div>
                 <div>
-                    <Button onClick={this.formatJson}>格式化</Button>
-                    <Button onClick={this.analysisJson}>解析</Button>
+                    <span>格式化:</span><Switch defaultChecked={false} onChange={this.formatJson}/>
+                    <Tooltip title="解析">
+                        <Button type="primary" size="small" shape="circle" icon="bulb" onClick={this.analysisJson}/>
+                    </Tooltip>
                 </div>
-                {/*value={ this.props.json ? JSON.stringify(this.props.json) : ''}*/}
-                <textarea   style={{width:'100%',height:500,marginTop:10,fontSize:16}}  onChange={this.handleChange}>
-                </textarea>
+                {/*<textarea value={this.state.code} style={{width: '100%', height: 500, marginTop: 10, fontSize: 16}}*/}
+                          {/*onChange={this.handleChange}>*/}
+                {/*</textarea>*/}
+                <CodeMirror value={this.state.code} onChange={this.handleChange} options={options}/>
                 <div>
                     <div>请复制下方json至文本框，然后点击解析按钮</div>
                     <div>{this.demo}</div>

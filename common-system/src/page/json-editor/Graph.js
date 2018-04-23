@@ -5,8 +5,9 @@ import React from 'react'
 import {DropTarget} from 'react-dnd'
 import ItemTypes from './ItemTypes'
 
-function getStyle(boxShadow,type) {
+function getStyle(boxShadow,type,tag) {
     let style = {
+        position:'relative',
         minHeight: '40px',
         color: '#000',
         padding:'10px',
@@ -15,6 +16,9 @@ function getStyle(boxShadow,type) {
         borderColor:'#aaa',
         boxShadow,
         boxSizing:'border-box',
+    }
+    if(type !== ItemTypes.ROOT && tag !== ''){
+        style.padding = '10px 10px 10px 80px'
     }
     switch(type){
         case ItemTypes.ROOT:
@@ -25,8 +29,12 @@ function getStyle(boxShadow,type) {
             break;
         case ItemTypes.OBJECT:
             style.borderRadius = '10px'
+            style.borderLeft = '1px solid #000'
+            style.borderRight = '1px solid #000'
             break;
         case ItemTypes.ARRAY:
+            style.borderLeft = '1px solid #000'
+            style.borderRight = '1px solid #000'
             break;
         default:
             break;
@@ -61,17 +69,17 @@ class Graph extends React.Component {
             tag
         } = this.props
 
-        let borderColor = '#aaa'
         let boxShadow = 'none'
         if (isOverCurrent && (type !==ItemTypes.ROOT || (type ===ItemTypes.ROOT && !children))) {
-            //borderColor = '#2ec7c9'
             boxShadow = '0 0 8px #07a2a4 inset'
         }
         return connectDropTarget(
-            <div style={getStyle(boxShadow, type)}>
-                <div>
-                    {tag}
-                </div>
+            <div style={getStyle(boxShadow,type,tag)}>
+                {
+                    (type !== ItemTypes.ROOT && tag) ? (<div className="json-editor-tag">
+                        {tag}
+                    </div>):null
+                }
                 {children}
             </div>
         )

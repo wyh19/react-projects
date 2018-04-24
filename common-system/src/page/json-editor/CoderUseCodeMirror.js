@@ -2,12 +2,14 @@
  * Created by 30113 on 2018/4/22.
  */
 import React from 'react'
-import {Button,  Switch, Tooltip} from 'antd'
-import CodeMirror  from 'react-codemirror'
+import {Button, Switch, Tooltip} from 'antd'
+import {Controlled  as CodeMirror}   from 'react-codemirror2'
 import 'codemirror/lib/codemirror.css'
-import 'codemirror/mode/javascript/javascript.js'
+import 'codemirror/mode/javascript/javascript'
 
-class Coder extends React.Component {
+import {formatJson} from './common'
+
+class CoderUseCodeMirror extends React.Component {
     constructor(props) {
         super(props)
         this.demo = '{"a":{"a1":{},"a2":[]},"b":[{"b1":"b1"},{"b2":"b2"}],"c":"ccc"}'
@@ -26,36 +28,15 @@ class Coder extends React.Component {
     }
 
     formatJson() {
-        var string = this.state.code
-        var result = '',
-            pos = 0,
-            prevChar = '',
-            outOfQuotes = true;
-        for (var i = 0; i < string.length; i++) {
-            var char = string.substring(i, i + 1);
-            if (char == '"' && prevChar != '\\') {
-                outOfQuotes = !outOfQuotes;
-            } else if ((char == '}' || char == ']') && outOfQuotes) {
-                result += "\n";
-                pos--;
-                for (var j = 0; j < pos; j++) result += '  ';
-            }
-            result += char;
-            if ((char == ',' || char == '{' || char == '[') && outOfQuotes) {
-                result += "\n";
-                if (char == '{' || char == '[') pos++;
-                for (var j = 0; j < pos; j++) result += '  ';
-            }
-            prevChar = char;
-        }
+        var result = formatJson(this.state.code)
         this.setState({
             code: result
         })
     }
 
-    handleChange(code) {
+    handleChange(editor, data, value) {
         this.setState({
-            code: code
+            code: value
         })
     }
 
@@ -74,7 +55,7 @@ class Coder extends React.Component {
             lineNumbers: true,
             matchBrackets: true,
             autoCloseBrackets: true,
-            mode: "application/ld+json",
+            mode: {name: "javascript", json: true},
             lineWrapping: true
         };
         return (
@@ -86,10 +67,9 @@ class Coder extends React.Component {
                         <Button type="primary" size="small" shape="circle" icon="bulb" onClick={this.analysisJson}/>
                     </Tooltip>
                 </div>
-                {/*<textarea value={this.state.code} style={{width: '100%', height: 500, marginTop: 10, fontSize: 16}}*/}
-                          {/*onChange={this.handleChange}>*/}
-                {/*</textarea>*/}
-                <CodeMirror value={this.state.code} onChange={this.handleChange} options={options}/>
+                <CodeMirror value={this.state.code}
+                            onBeforeChange={this.handleChange}
+                            options={options}/>
                 <div>
                     <div>请复制下方json至文本框，然后点击解析按钮</div>
                     <div>{this.demo}</div>
@@ -99,4 +79,4 @@ class Coder extends React.Component {
     }
 }
 
-export default Coder
+export default CoderUseCodeMirror

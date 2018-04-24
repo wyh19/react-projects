@@ -9,8 +9,8 @@ import ItemTypes from './ItemTypes'
 import Box from './Box'
 import Graph from './Graph'
 import _ from 'lodash'
-import {Modal, Input,message}from 'antd'
-import Coder from './Coder'
+import {Modal, Input, message}from 'antd'
+import CoderArea from './CoderUseMonaco'
 
 @DragDropContext(HTML5)
 class JsonEditor extends React.Component {
@@ -168,7 +168,9 @@ class JsonEditor extends React.Component {
                     </div>
                     <div className="graph-area">
                         <div className="area-title">JSON绘制区</div>
-                        <Graph className="root-graph" type={ItemTypes.ROOT} onDrop={this.onDropHandle}
+                        <Graph className="root-graph"
+                               type={ItemTypes.ROOT}
+                               onDrop={this.onDropHandle}
                                value={this.state.json}>
                             {
                                 this.drawGraphArea(this.state.json)
@@ -178,7 +180,7 @@ class JsonEditor extends React.Component {
                 </div>
                 <div className="compile-area">
                     <div className="area-title">JSON文本</div>
-                    <Coder json={this.state.json} onAnalysis={this.onAnalysis}/>
+                    <CoderArea json={this.state.json} onAnalysis={this.onAnalysis}/>
                 </div>
 
                 <Modal visible={this.state.showDialog}

@@ -29,12 +29,8 @@ function getStyle(boxShadow,type,tag) {
             break;
         case ItemTypes.OBJECT:
             style.borderRadius = '10px'
-            style.borderLeft = '1px solid #000'
-            style.borderRight = '1px solid #000'
             break;
         case ItemTypes.ARRAY:
-            style.borderLeft = '1px solid #000'
-            style.borderRight = '1px solid #000'
             break;
         default:
             break;

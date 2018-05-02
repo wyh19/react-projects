@@ -26,3 +26,11 @@ export function formatJson(jsonStr) {
     }
     return result
 }
+
+export function getType(data) {
+    let type = typeof(data)
+    if (type === 'object' && data instanceof Array) {
+        type = 'array'
+    }
+    return type
+}

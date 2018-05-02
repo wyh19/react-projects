@@ -11,6 +11,7 @@ import Graph from './Graph'
 import _ from 'lodash'
 import {Modal, Input, message}from 'antd'
 import CoderArea from './CoderUseMonaco'
+import {getType} from './common'
 
 @DragDropContext(HTML5)
 class JsonEditor extends React.Component {
@@ -109,7 +110,7 @@ class JsonEditor extends React.Component {
     drawGraphArea(data, key, path) {
         let result;
         if (data) {
-            const type = this.getType(data)
+            const type = getType(data)
             switch (type) {
                 case 'object':
                     result = (
@@ -148,26 +149,16 @@ class JsonEditor extends React.Component {
         return result
     }
 
-    getType(data) {
-        let type = typeof(data)
-        if (type === 'object' && data instanceof Array) {
-            type = 'array'
-        }
-        return type
-    }
-
     render() {
         return (
             <div className="json-editor">
                 <div className="drag-area">
                     <div className="box-area">
-                        <div className="area-title">元素组件</div>
-                        <Box type={ItemTypes.OBJECT} name="对象" value={{}}/>
-                        <Box type={ItemTypes.ARRAY} name="数组" value={[]}/>
-                        <Box type={ItemTypes.VALUE} name="值"/>
+                        <Box type={ItemTypes.OBJECT} name="{ }" value={{}}/>
+                        <Box type={ItemTypes.ARRAY} name="[ ]" value={[]}/>
+                        <Box type={ItemTypes.VALUE} name="V"/>
                     </div>
                     <div className="graph-area">
-                        <div className="area-title">JSON绘制区</div>
                         <Graph className="root-graph"
                                type={ItemTypes.ROOT}
                                onDrop={this.onDropHandle}
@@ -178,11 +169,7 @@ class JsonEditor extends React.Component {
                         </Graph>
                     </div>
                 </div>
-                <div className="compile-area">
-                    <div className="area-title">JSON文本</div>
-                    <CoderArea json={this.state.json} onAnalysis={this.onAnalysis}/>
-                </div>
-
+                <CoderArea json={this.state.json} onAnalysis={this.onAnalysis}/>
                 <Modal visible={this.state.showDialog}
                        title="输入元素的key值"
                        maskClosable={false}

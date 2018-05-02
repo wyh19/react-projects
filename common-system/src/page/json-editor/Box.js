@@ -7,13 +7,14 @@ import ItemTypes from './ItemTypes'
 
 const style = {
     display: 'inline-block',
-    border: '1px dashed gray',
-    padding: '5px 10px',
-    width:'90px',
+    border: '1px solid gray',
+    padding: '2px 5px',
+    width:'100%',
     backgroundColor: 'white',
     cursor: 'move',
-    margin:'5px',
+    margin:'5px 0',
     boxSizing:'border-content',
+    textAlign:'center',
 }
 
 const boxSource = {

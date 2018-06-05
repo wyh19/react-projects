@@ -3,12 +3,12 @@
  */
 import React from 'react'
 import './index.css'
-import Test from './components/Test'
+import {JsonEditor} from './components/json-editor'
 
 class App extends React.Component{
     render(){
         return (
-            <Test/>
+            <JsonEditor/>
         )
     }
 }

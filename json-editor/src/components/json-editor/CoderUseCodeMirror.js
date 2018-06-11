@@ -59,7 +59,6 @@ class CoderUseCodeMirror extends React.Component {
             lineWrapping: true
         };
         return (
-
             <div>
                 <div>
                     <span>格式化:</span><Switch defaultChecked={false} onChange={this.formatJson}/>

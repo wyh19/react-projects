@@ -1,9 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d8a780c6-088a-4b60-8374-893127cf275a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/json-editor/注意事项.txt" />
+    <list default="true" id="d8a780c6-088a-4b60-8374-893127cf275a" name="Default" comment="添加注意事项">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study-imooc-app/public/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study-imooc-app/src/component/img/boy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study-imooc-app/src/component/img/bull.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study-imooc-app/src/component/img/chick.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study-imooc-app/src/component/img/crab.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study-imooc-app/src/component/img/girl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study-imooc-app/src/component/img/hedgehog.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study-imooc-app/src/component/img/hippopotamus.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study-imooc-app/src/component/img/koala.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study-imooc-app/src/component/img/lemur.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study-imooc-app/src/component/img/man.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study-imooc-app/src/component/img/pig.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study-imooc-app/src/component/img/tiger.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study-imooc-app/src/component/img/whale.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study-imooc-app/src/component/img/woman.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study-imooc-app/src/component/img/zebra.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study-imooc-app/src/component/logo/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study-imooc-app/src/component/navlink/img/boss-active.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study-imooc-app/src/component/navlink/img/boss.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study-imooc-app/src/component/navlink/img/job-active.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study-imooc-app/src/component/navlink/img/job.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study-imooc-app/src/component/navlink/img/msg-active.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study-imooc-app/src/component/navlink/img/msg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study-imooc-app/src/component/navlink/img/user-active.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study-imooc-app/src/component/navlink/img/user.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study-imooc-app/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study-imooc-app/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study-imooc-app/cmd.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study-imooc-app/config/env.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study-imooc-app/config/jest/cssTransform.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study-imooc-app/config/jest/fileTransform.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study-imooc-app/config/paths.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study-imooc-app/config/polyfills.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study-imooc-app/config/webpack.config.dev.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study-imooc-app/config/webpack.config.prod.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study-imooc-app/config/webpackDevServer.config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study-imooc-app/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study-imooc-app/practice/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study-imooc-app/public/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study-imooc-app/public/manifest.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study-imooc-app/scripts/build.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study-imooc-app/scripts/start.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study-imooc-app/scripts/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study-imooc-app/server/model.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study-imooc-app/server/server.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study-imooc-app/server/user.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study-imooc-app/src/component/authroute/authroute.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study-imooc-app/src/component/avatar-selector/avatar-selector.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study-imooc-app/src/component/boss/boss.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study-imooc-app/src/component/chat/chat.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study-imooc-app/src/component/dashboard/dashboard.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study-imooc-app/src/component/genius/genius.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study-imooc-app/src/component/imooc-form/imooc-form.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study-imooc-app/src/component/logo/logo.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study-imooc-app/src/component/logo/logo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study-imooc-app/src/component/msg/msg.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study-imooc-app/src/component/navlink/navlink.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study-imooc-app/src/component/user/user.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study-imooc-app/src/component/usercard/usercard.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study-imooc-app/src/config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study-imooc-app/src/container/bossinfo/bossinfo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study-imooc-app/src/container/geniusinfo/geniusinfo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study-imooc-app/src/container/login/login.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study-imooc-app/src/container/register/register.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study-imooc-app/src/index.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study-imooc-app/src/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study-imooc-app/src/reducer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study-imooc-app/src/redux/chat.redux.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study-imooc-app/src/redux/chatuser.redux.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study-imooc-app/src/redux/user.redux.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/study-imooc-app/src/util.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/json-editor/src/components/json-editor/CoderUseCodeMirror.js" afterPath="$PROJECT_DIR$/json-editor/src/components/json-editor/CoderUseCodeMirror.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,7 +88,90 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/json-editor/src/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="json-editor.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/json-editor/src/components/json-editor/json-editor.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="821">
+              <caret line="169" column="23" lean-forward="false" selection-start-line="169" selection-start-column="23" selection-end-line="169" selection-end-column="23" />
+              <folding>
+                <element signature="e#42#67#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/study-imooc-app/practice/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/json-editor/src/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="25" column="6" lean-forward="false" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="json-editor.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/json-editor/src/components/json-editor/json-editor.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Graph.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/json-editor/src/components/json-editor/Graph.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1113">
+              <caret line="57" column="6" lean-forward="false" selection-start-line="57" selection-start-column="6" selection-end-line="57" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/json-editor/src/components/json-editor/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ItemTypes.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/json-editor/src/components/json-editor/ItemTypes.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -51,8 +205,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/common-system/src/page/dnd/Other/Native Files/Container.js" />
-        <option value="$PROJECT_DIR$/common-system/src/page/dnd/dustbin/Stress Test/Container.js" />
         <option value="$PROJECT_DIR$/common-system/src/page/dnd/dustbin/DusbinDemos.js" />
         <option value="$PROJECT_DIR$/common-system/src/page/dnd/DragAround/DragAround.js" />
         <option value="$PROJECT_DIR$/common-system/src/page/dnd/DragAround/Naive/Container.js" />
@@ -102,6 +254,8 @@
         <option value="$PROJECT_DIR$/json-editor/webpack-config/base.js" />
         <option value="$PROJECT_DIR$/json-editor/package.json" />
         <option value="$PROJECT_DIR$/json-editor/注意事项.txt" />
+        <option value="$PROJECT_DIR$/json-editor/src/components/json-editor/CoderUseCodeMirror.js" />
+        <option value="$PROJECT_DIR$/study-imooc-app/.gitignore" />
       </list>
     </option>
   </component>
@@ -149,6 +303,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -160,18 +316,8 @@
               <option name="myItemId" value="react-projects" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="react-projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="react-projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="json-editor" />
+              <option name="myItemId" value="study-imooc-app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -182,21 +328,11 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="react-projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="json-editor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webpack-config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -213,17 +349,17 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\projects\web\gold\react-projects\common-system\src\page\dnd\dustbin\SingleTarget" />
-      <recent name="E:\projects\web\gold\react-projects\common-system\src\page\dnd\chess" />
-      <recent name="E:\projects\web\gold\react-projects\common-system\src\page" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\projects\web\gold\react-projects\study-imooc-app" />
       <recent name="E:\projects\web\gold\react-projects\json-editor\src\components" />
       <recent name="E:\projects\web\gold\react-projects\json-editor\webpack-config" />
       <recent name="E:\projects\web\gold\react-projects\json-editor" />
       <recent name="E:\projects\web\gold\react-projects\my-home\src\home" />
-      <recent name="E:\projects\web\gold\react-projects\common-system\src\page\dnd\DragAround\Naive" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\projects\web\gold\react-projects\common-system\src\page\dnd\dustbin\SingleTarget" />
+      <recent name="E:\projects\web\gold\react-projects\common-system\src\page\dnd\chess" />
+      <recent name="E:\projects\web\gold\react-projects\common-system\src\page" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -389,14 +525,8 @@
       <workItem from="1528448506934" duration="41000" />
       <workItem from="1528684159956" duration="700000" />
       <workItem from="1528685268405" duration="1154000" />
-      <workItem from="1528686450419" duration="1832000" />
-    </task>
-    <task id="LOCAL-00031" summary="使用create-react-app搭建mini-redux项目，避免配置热替换的繁杂及效率低下">
-      <created>1522118132188</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1522118132188</updated>
+      <workItem from="1528686450419" duration="3816000" />
+      <workItem from="1528696570529" duration="135000" />
     </task>
     <task id="LOCAL-00032" summary="搭建mini-redux环境">
       <created>1522118348273</created>
@@ -734,24 +864,32 @@
       <option name="project" value="LOCAL" />
       <updated>1528687396265</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="添加注意事项">
+      <created>1528688296622</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1528688296622</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="320808000" />
+    <option name="totallyTimeSpent" value="322927000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21308017" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17879747" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995495" sideWeight="0.5063291" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995495" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32882884" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995495" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3704955" sideWeight="0.49367088" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3704955" sideWeight="0.49367088" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995495" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -759,7 +897,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298611" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -800,7 +937,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="初步实现muni-react-redux" />
     <MESSAGE value="创建" />
     <MESSAGE value="格式化代码" />
     <MESSAGE value="开始搭建拖拽demo" />
@@ -825,7 +961,8 @@
     <MESSAGE value="修改build命令" />
     <MESSAGE value="恢复common-system" />
     <MESSAGE value="恢复json-editor至初步可用" />
-    <option name="LAST_COMMIT_MESSAGE" value="恢复json-editor至初步可用" />
+    <MESSAGE value="添加注意事项" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加注意事项" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -834,17 +971,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/json-editor/dist/app.d8096890d3e5d12146e6.js" />
-    <entry file="file://$PROJECT_DIR$/json-editor/dist/app.7a86b1e07dcd46922721.js" />
-    <entry file="file://$PROJECT_DIR$/json-editor/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="5" lean-forward="false" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/json-editor/dist/app.e05d247d1a630fca4ab7.js" />
-    <entry file="file://$PROJECT_DIR$/json-editor/dist/app.654e3cd58b08dc7777e4.js" />
     <entry file="file://$PROJECT_DIR$/json-editor/dist/app.91940d1bfc464a678f39.js" />
     <entry file="file://$PROJECT_DIR$/json-editor/dist/app.fba0970c523859acbdc0.js" />
     <entry file="file://$PROJECT_DIR$/common-system/build/index.html">
@@ -948,13 +1074,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/json-editor/src/components/Test.js" />
-    <entry file="file://$PROJECT_DIR$/json-editor/src/components/json-editor/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common-system/src/reducer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
@@ -969,31 +1088,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/json-editor/src/components/json-editor/Box.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="28" column="11" lean-forward="false" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/json-editor/src/components/json-editor/Graph.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="53" column="5" lean-forward="false" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common-system/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="27" column="25" lean-forward="true" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/json-editor/src/components/json-editor/CoderUseCodeMirror.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="7" lean-forward="false" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -1065,23 +1163,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/json-editor/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/json-editor/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1089,14 +1170,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="819">
           <caret line="39" column="34" lean-forward="true" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/json-editor/src/components/json-editor/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1113,7 +1186,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1398">
           <caret line="13" column="56" lean-forward="true" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1125,21 +1197,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/json-editor/src/components/json-editor/json-editor.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="13" column="32" lean-forward="false" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
-          <folding>
-            <element signature="e#42#67#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/json-editor/webpack-config/base.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="567">
           <caret line="51" column="11" lean-forward="true" selection-start-line="46" selection-start-column="8" selection-end-line="51" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1147,6 +1208,111 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="13" column="11" lean-forward="false" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json-editor/src/components/json-editor/Box.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="28" column="11" lean-forward="false" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json-editor/src/components/json-editor/CoderUseCodeMirror.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1092">
+          <caret line="60" column="16" lean-forward="false" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json-editor/src/components/json-editor/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json-editor/src/components/json-editor/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json-editor/src/components/json-editor/ItemTypes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json-editor/src/components/json-editor/json-editor.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json-editor/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json-editor/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="25" column="6" lean-forward="false" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json-editor/src/components/json-editor/Graph.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1113">
+          <caret line="57" column="6" lean-forward="false" selection-start-line="57" selection-start-column="6" selection-end-line="57" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json-editor/src/components/json-editor/json-editor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="821">
+          <caret line="169" column="23" lean-forward="false" selection-start-line="169" selection-start-column="23" selection-end-line="169" selection-end-column="23" />
+          <folding>
+            <element signature="e#42#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-imooc-app/yarn.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-imooc-app/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study-imooc-app/practice/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

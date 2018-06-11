@@ -1,0 +1,14 @@
+1、配置react-monaca-editor,如果按照github文档添加下面的配置并无效果
+const MonacoWebpackPlugin = require('monaco-editor-webpack-plugin');
+module.exports = {
+  plugins: [
+    new MonacoWebpackPlugin()
+  ]
+};
+应该按下面配置
+new CopyWebpackPlugin([
+            {
+                from: 'node_modules/monaco-editor/min/vs',
+                to: 'vs',
+            }
+        ]),

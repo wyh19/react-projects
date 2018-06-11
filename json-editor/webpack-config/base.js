@@ -3,6 +3,7 @@
  */
 const path = require("path")
 const HTMLWebpackPlugin = require("html-webpack-plugin")
+const CopyWebpackPlugin = require('copy-webpack-plugin')
 
 let config = {
     entry:{
@@ -43,6 +44,12 @@ let config = {
         new HTMLWebpackPlugin({
             template: path.join(__dirname, '../public/index.html')
         }),
+        new CopyWebpackPlugin([
+            {
+                from: 'node_modules/monaco-editor/min/vs',
+                to: 'vs',
+            }
+        ]),
     ],
     resolve: {
         modules: [
